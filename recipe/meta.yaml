@@ -1,5 +1,5 @@
 {% set name = "flametree" %}
-{% set version = "0.1.11" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flametree-{{ version }}.tar.gz
-  sha256: c8eb81dea8c7f8261a2aa03d2bac98b1d21ebceec9c67efaac423f7c1b4fe061
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flametree-{{ version }}.tar.gz
+  sha256: 6ee675fb7305d2a8d601cd117fb377a5395741eb05d6485a191fa3b2d119dd06
 
 build:
   number: 0
